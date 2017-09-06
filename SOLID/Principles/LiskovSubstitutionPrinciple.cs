@@ -33,5 +33,18 @@
                 }
             }
         }
+
+        public class AreaCalculator
+        {
+            public static int CalculateArea(Rectangle rectangle)
+            {
+                return rectangle.Width * rectangle.Height;
+            }
+
+            public static int CalculateArea(Square square)
+            {
+                return square.Width * square.Height;
+            }
+        }
     }
 }
